@@ -17,7 +17,13 @@ public class AppPilha02 {
         p.empilhar("N");
         p.empilhar("A");
         
-        p.exibir();
+        p.exibirRecursivo();
+        
+//        while(!p.estaVazia()){
+//        System.out.println("Desempilhando \n" + p.desempilhar());
+//        }
+//        System.out.println("Nova pilha: ");
+//        p.exibir();
     }
     
 }
